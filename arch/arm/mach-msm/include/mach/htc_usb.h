@@ -41,6 +41,8 @@ static char *usb_functions_rndis_adb[] = {
 	"rndis",
 	"adb",
 };
+
+/*
 #ifdef CONFIG_USB_ANDROID_DIAG
 static char *usb_functions_rndis_diag[] = {
 	"rndis",
@@ -52,6 +54,7 @@ static char *usb_functions_rndis_adb_diag[] = {
 	"diag",
 };
 #endif
+*/
 
 #ifdef CONFIG_USB_ANDROID_ACCESSORY
 static char *usb_functions_accessory[] = { "accessory" };
